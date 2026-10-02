@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Local demo runtime (SQLite + sandboxes)
+run/
+demos/run/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Logs & OS
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Editors / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Coverage / build
+coverage/
+dist/
+build/
+*.tsbuildinfo
+
+# Lock alternative (keep package-lock.json for reproducible demos)
+yarn.lock
+pnpm-lock.yaml

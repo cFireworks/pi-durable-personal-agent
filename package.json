@@ -1,0 +1,29 @@
+{
+  "name": "pi-durable-personal-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Open-source scaffold: always-on personal agent on Pi Durable — loop microservice + ExecutionEnv sandbox isolation",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cFireworks/pi-durable-personal-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cFireworks/pi-durable-personal-agent/issues"
+  },
+  "homepage": "https://github.com/cFireworks/pi-durable-personal-agent#readme",
+  "scripts": {
+    "demo": "node demos/isolation.mjs faux",
+    "demo:faux": "node demos/isolation.mjs faux",
+    "demo:chat": "node demos/isolation.mjs chat"
+  },
+  "dependencies": {
+    "@earendil-works/chord": "^1.0.0",
+    "@earendil-works/pi-ai": "^1.0.0",
+    "@earendil-works/pi-durable": "^1.0.0"
+  }
+}
